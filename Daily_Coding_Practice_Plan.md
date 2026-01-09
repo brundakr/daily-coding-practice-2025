@@ -13,9 +13,9 @@
 
 #### **Day 1 - Collections & Lists**
 **Morning Drill (15 min):**
-- [ ] Write ArrayList operations from memory
-- [ ] Create list, add 5 elements, remove duplicates
-- [ ] Sort list in ascending/descending order
+- [👍] Write ArrayList operations from memory
+- [👍] Create list, add 5 elements, remove duplicates
+- [👍] Sort list in ascending/descending order
 ```java
 List<String> names = new ArrayList<>();
 // Add operations
@@ -24,16 +24,16 @@ List<String> names = new ArrayList<>();
 ```
 
 **Evening Project (30 min):**
-- [ ] Create `Student` class with name, age, grade
-- [ ] Add validation (age > 0, grade A-F)
-- [ ] Create ArrayList of 5 students
-- [ ] Write method to find students by grade
+- [👍] Create `Student` class with name, age, grade
+- [👍] Add validation (age > 0, grade A-F)
+- [👍] Create ArrayList of 5 students
+- [👍] Write method to find students by grade
 
 **Daily Checklist:**
-- [ ] Wrote code without looking at reference for first 10 minutes
-- [ ] Explained each line out loud
-- [ ] No copy-paste used
-- [ ] Compiled and ran successfully
+- [👍] Wrote code without looking at reference for first 10 minutes
+- [👍] Explained each line out loud
+- [👍] No copy-paste used
+- [👍] Compiled and ran successfully
 
 ---
 
