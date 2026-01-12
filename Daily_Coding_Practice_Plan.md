@@ -45,10 +45,10 @@ List<String> names = new ArrayList<>();
 - [👍] Find key with maximum value
 
 **Evening Project (30 min):**
-- [ ] Create `BookStore` class
-- [ ] Use HashMap to store book titles and prices
-- [ ] Add methods: addBook(), findMostExpensive(), getTotalValue()
-- [ ] Handle cases where book doesn't exist
+- [👍] Create `BookStore` class
+- [👍] Use HashMap to store book titles and prices
+- [👍] Add methods: addBook(), findMostExpensive(), getTotalValue()
+- [👍] Handle cases where book doesn't exist
 
 **Daily Checklist:**
 - [ ] Wrote HashMap operations from memory
