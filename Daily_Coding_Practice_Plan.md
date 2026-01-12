@@ -51,10 +51,10 @@ List<String> names = new ArrayList<>();
 - [👍] Handle cases where book doesn't exist
 
 **Daily Checklist:**
-- [ ] Wrote HashMap operations from memory
-- [ ] Handled null checks properly
-- [ ] No AI assistance used
-- [ ] Code works without errors
+- [👍] Wrote HashMap operations from memory
+- [👍] Handled null checks properly
+- [👍 ] No AI assistance used
+- [👍] Code works without errors
 
 ---
 
