@@ -39,10 +39,10 @@ List<String> names = new ArrayList<>();
 
 #### **Day 2 - HashMap & Data Manipulation**
 **Morning Drill (15 min):**
-- [ ] Create HashMap with String keys, Integer values
-- [ ] Add 5 key-value pairs
-- [ ] Iterate through map using entrySet()
-- [ ] Find key with maximum value
+- [👍] Create HashMap with String keys, Integer values
+- [👍] Add 5 key-value pairs
+- [👍] Iterate through map using entrySet()
+- [👍] Find key with maximum value
 
 **Evening Project (30 min):**
 - [ ] Create `BookStore` class
