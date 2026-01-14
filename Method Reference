@@ -1,0 +1,24 @@
+Method reference (::)
+
+It is just a shorter way of writing a lambda.
+
+Rule:
+A::b means → “call method b on object A”
+
+This means:
+“take x, call getDepartment() on it”
+
+Employee::getDepartment
+
+
+----------
+
+evenList.forEach(System.out::println);
+
+forEach() needs something that:
+takes one item and does something with it
+
+x -> System.out.println(x)
+Which means: “Pass x into println(x)”
+
+Same as: System.out::println

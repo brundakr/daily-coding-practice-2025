@@ -60,16 +60,16 @@ List<String> names = new ArrayList<>();
 
 #### **Day 3 - Streams & Functional Programming**
 **Morning Drill (15 min):**
-- [ ] Filter even numbers from list
-- [ ] Map numbers to their squares
-- [ ] Collect results to new list
-- [ ] Calculate sum using reduce()
+- [👍] Filter even numbers from list
+- [👍] Map numbers to their squares
+- [👍] Collect results to new list
+- [👍] Calculate sum using reduce()
 
 **Evening Project (30 min):**
-- [ ] Create list of Employee objects (name, salary, department)
-- [ ] Filter employees by salary > 50000
-- [ ] Group by department using streams
-- [ ] Find average salary per department
+- [👍] Create list of Employee objects (name, salary, department)
+- [👍] Filter employees by salary > 50000
+- [👍] Group by department using streams
+- [👍] Find average salary per department
 
 **Daily Checklist:**
 - [ ] Used stream operations without reference
