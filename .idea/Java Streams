@@ -1,0 +1,48 @@
+Java Streams have many functions, but they fall into a few main categories:
+
+1. Intermediate Operations
+These return a new stream and are used to transform/filter data.
+Examples:
+
+filter() – keeps elements that match a condition
+map() – transforms each element
+sorted() – sorts the stream
+distinct() – removes duplicates
+limit(), skip() – take or skip elements
+
+
+2. Terminal Operations
+These produce a result or side-effect and close the stream.
+Examples:
+
+collect() – gathers results (e.g., to a list or map)
+forEach() – performs an action for each element
+reduce() – combines elements into one
+count(), min(), max(), findFirst(), anyMatch()
+
+
+Order Matters!
+Intermediate operations can be chained in any order, but the order affects the result and performance.
+Example: filter().map() is different from map().filter().
+Filtering before mapping is usually more efficient.
+Terminal operation must be last (it ends the stream).
+
+-----------------------------------------------------------------
+
+Yes, groupingBy comes inside collect because:
+
+collect() is a terminal operation in streams that gathers the elements of the stream into a collection (like a List, Set, or Map).
+Collectors.groupingBy() is a collector—it tells collect() how to group the elements.
+
+
+Other functions like groupingBy that come inside collect() are called collectors. Some commonly used collectors from Collectors are:
+
+toList() – collects elements into a List
+toSet() – collects elements into a Set
+toMap() – collects elements into a Map
+joining() – joins strings into a single string
+partitioningBy() – splits elements into two groups (true/false) based on a predicate
+counting() – counts the number of elements
+summarizingInt() / summarizingLong() / summarizingDouble() – collects statistics (count, sum, min, average, max)
+mapping() – applies a mapping function before collecting
+reducing() – reduces elements to a single value

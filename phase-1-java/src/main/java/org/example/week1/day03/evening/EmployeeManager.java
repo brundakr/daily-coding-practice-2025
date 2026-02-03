@@ -3,6 +3,7 @@ package org.example.week1.day03.evening;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 public class EmployeeManager {
@@ -57,8 +58,29 @@ public class EmployeeManager {
             System.out.println("Average salary per employee: "+avgSal);
         });
 
+//find the second highest salary
+        Optional<Long> secondHighestSal = empList.stream()
+                .map(Employee::getSalary)
+                .distinct()
+                .sorted((a,b) -> Long.compare(b, a))
+                .skip(1)
+                .findFirst();
 
+        secondHighestSal.ifPresent(System.out::println);
 
+        //or
+
+        secondHighestSal.ifPresent(s -> System.out.println("Second highest salary: "+s));
+
+        //find the employee name with 2nd highest salary
+
+        empList.stream()
+                .sorted((a,b) -> Long.compare(b.getSalary(), a.getSalary()))
+                .map(Employee::getName)
+                .skip(1)
+                .findFirst()
+                .ifPresent(e->System.out.println(e));
+        
 
 
     }

@@ -22,3 +22,12 @@ x -> System.out.println(x)
 Which means: “Pass x into println(x)”
 
 Same as: System.out::println
+
+
+--------
+
+empList.stream()
+.map(Employee::getName)  is same as 
+
+empList.stream()
+.map(e -> e.getName())

@@ -70,12 +70,13 @@ List<String> names = new ArrayList<>();
 - [👍] Filter employees by salary > 50000
 - [👍] Group by department using streams
 - [👍] Find average salary per department
+- [  ] Find the 2nd highest salary
 
 **Daily Checklist:**
-- [ ] Used stream operations without reference
-- [ ] Explained lambda expressions used
-- [ ] No syntax errors
-- [ ] Results are correct
+- [👍] Used stream operations without reference
+- [👍] Explained lambda expressions used
+- [👍] No syntax errors
+- [👍] Results are correct
 
 ---
 
