@@ -70,7 +70,7 @@ List<String> names = new ArrayList<>();
 - [👍] Filter employees by salary > 50000
 - [👍] Group by department using streams
 - [👍] Find average salary per department
-- [  ] Find the 2nd highest salary
+- [👍] Find the 2nd highest salary
 
 **Daily Checklist:**
 - [👍] Used stream operations without reference
@@ -82,23 +82,23 @@ List<String> names = new ArrayList<>();
 
 #### **Day 4 - Exception Handling**
 **Morning Drill (15 min):**
-- [ ] Write try-catch block for file reading
-- [ ] Handle multiple exception types
-- [ ] Create custom exception class
-- [ ] Use finally block properly
+- [👍] Write try-catch block for file reading
+- [👍] Handle multiple exception types
+- [👍] Create custom exception class
+- [👍] Use finally block properly
 
 **Evening Project (30 min):**
-- [ ] Create `Calculator` class
-- [ ] Handle division by zero
-- [ ] Handle invalid number formats
-- [ ] Log errors with meaningful messages
-- [ ] Return appropriate error responses
+- [👍] Create `Calculator` class
+- [👍] Handle division by zero
+- [👍] Handle invalid number formats
+- [👍] Log errors with meaningful messages
+- [👍] Return appropriate error responses
 
 **Daily Checklist:**
-- [ ] Handled all edge cases
-- [ ] Used appropriate exception types
-- [ ] Added proper logging
-- [ ] No crashes on invalid input
+- [👍] Handled all edge cases
+- [👍] Used appropriate exception types
+- [👍] Added proper logging
+- [👍] No crashes on invalid input
 
 ---
 

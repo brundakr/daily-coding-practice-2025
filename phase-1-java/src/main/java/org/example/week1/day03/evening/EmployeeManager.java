@@ -80,7 +80,7 @@ public class EmployeeManager {
                 .skip(1)
                 .findFirst()
                 .ifPresent(e->System.out.println(e));
-        
+
 
 
     }
