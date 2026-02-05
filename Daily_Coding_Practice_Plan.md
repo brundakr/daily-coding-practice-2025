@@ -104,10 +104,10 @@ List<String> names = new ArrayList<>();
 
 #### **Day 5 - String Operations & Validation**
 **Morning Drill (15 min):**
-- [ ] Split string by delimiter
-- [ ] Join array of strings
-- [ ] Remove whitespace and special characters
-- [ ] Check if string contains only digits
+- [👍] Split string by delimiter
+- [👍] Join array of strings
+- [👍] Remove whitespace and special characters
+- [👍] Check if string contains only digits
 
 **Evening Project (30 min):**
 - [ ] Create `UserValidator` class
