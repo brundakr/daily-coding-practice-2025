@@ -110,39 +110,39 @@ List<String> names = new ArrayList<>();
 - [👍] Check if string contains only digits
 
 **Evening Project (30 min):**
-- [ ] Create `UserValidator` class
-- [ ] Validate email format using regex
-- [ ] Validate phone number (10 digits)
-- [ ] Validate password strength
-- [ ] Return validation error messages
+- [👍] Create `UserValidator` class
+- [👍] Validate email format using regex
+- [👍] Validate phone number (10 digits)
+- [👍] Validate password strength
+- [👍] Return validation error messages
 
 **Daily Checklist:**
-- [ ] Wrote regex patterns from memory
-- [ ] Handled empty/null strings
-- [ ] All validations work correctly
-- [ ] Clear error messages provided
+- [👍] Wrote regex patterns from memory
+- [👍] Handled empty/null strings
+- [👍] All validations work correctly
+- [👍] Clear error messages provided
 
 ---
 
 #### **Day 6 - File Operations & I/O**
 **Morning Drill (15 min):**
-- [ ] Read file line by line
-- [ ] Write data to file
-- [ ] Handle FileNotFoundException
-- [ ] Close resources properly
+- [👍] Read file line by line
+- [👍] Write data to file
+- [👍] Handle FileNotFoundException
+- [👍] Close resources properly
 
 **Evening Project (30 min):**
-- [ ] Create `FileProcessor` class
-- [ ] Read CSV file with student data
-- [ ] Parse and validate data
-- [ ] Write processed data to new file
-- [ ] Handle I/O exceptions gracefully
+- [👍] Create `FileProcessor` class
+- [👍] Read CSV file with student data
+- [👍] Parse and validate data
+- [👍] Write processed data to new file
+- [👍] Handle I/O exceptions gracefully
 
 **Daily Checklist:**
-- [ ] Used try-with-resources
-- [ ] Handled file not found scenarios
-- [ ] Proper resource cleanup
-- [ ] Error handling implemented
+- [👍] Used try-with-resources
+- [👍] Handled file not found scenarios
+- [👍] Proper resource cleanup
+- [👍] Error handling implemented
 
 ---
 
