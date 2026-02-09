@@ -191,16 +191,16 @@ List<String> names = new ArrayList<>();
 
 #### **Day 9 - Object-Oriented Design**
 **Morning Drill (15 min):**
-- [ ] Create abstract class with abstract methods
-- [ ] Implement interface with multiple methods
-- [ ] Use inheritance properly
-- [ ] Apply encapsulation principles
+- [👍] Create abstract class with abstract methods
+- [👍] Implement interface with multiple methods
+- [👍] Use inheritance properly
+- [👍] Apply encapsulation principles
 
 **Evening Project (30 min):**
-- [ ] Design `Vehicle` hierarchy (Car, Bike, Truck)
-- [ ] Create common interface `Drivable`
-- [ ] Implement polymorphism
-- [ ] Add factory pattern for vehicle creation
+- [👍] Design `Vehicle` hierarchy (Car, Bike, Truck)
+- [👍] Create common interface `Drivable`
+- [👍] Implement polymorphism
+- [👍] Add factory pattern for vehicle creation
 
 **Daily Checklist:**
 - [ ] Proper inheritance hierarchy
