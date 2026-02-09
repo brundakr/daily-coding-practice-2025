@@ -1,4 +1,4 @@
-package org.example.week2.morning;
+package org.example.week2.day08.morning;
 
 import java.util.*;
 

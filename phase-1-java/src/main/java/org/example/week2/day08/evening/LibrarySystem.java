@@ -1,4 +1,4 @@
-package org.example.week2.evening;
+package org.example.week2.day08.evening;
 
 import java.util.HashMap;
 import java.util.LinkedList;
