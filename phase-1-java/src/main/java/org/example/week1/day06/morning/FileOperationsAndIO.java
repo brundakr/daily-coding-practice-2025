@@ -8,7 +8,7 @@ public class FileOperationsAndIO {
         //Read file line by line
         try(BufferedReader reader = new BufferedReader(new FileReader("input.txt"))) {
             String line;
-            while((line = reader.readLine() != null)) {
+            while((line = reader.readLine()) != null) {
                 System.out.println(line);
             }
         } catch (FileNotFoundException e) {

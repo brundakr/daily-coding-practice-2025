@@ -170,22 +170,22 @@ List<String> names = new ArrayList<>();
 
 #### **Day 8 - Advanced Collections**
 **Morning Drill (15 min):**
-- [ ] Use LinkedHashMap vs HashMap
-- [ ] Implement Set operations (union, intersection)
-- [ ] Use PriorityQueue for sorting
-- [ ] TreeMap for sorted key-value pairs
+- [👍] Use LinkedHashMap vs HashMap
+- [👍] Implement Set operations (union, intersection)
+- [👍] Use PriorityQueue for sorting
+- [👍] TreeMap for sorted key-value pairs
 
 **Evening Project (30 min):**
-- [ ] Create `LibrarySystem` class
-- [ ] Use different collections appropriately
-- [ ] Track book borrowing history (LinkedList)
-- [ ] Maintain sorted book catalog (TreeSet)
+- [👍] Create `LibrarySystem` class
+- [👍] Use different collections appropriately
+- [👍] Track book borrowing history (LinkedList)
+- [👍] Maintain sorted book catalog (TreeSet)
 
 **Daily Checklist:**
-- [ ] Chose appropriate collection types
-- [ ] Understood performance implications
-- [ ] No compilation errors
-- [ ] Optimal data structure usage
+- [👍] Chose appropriate collection types
+- [👍] Understood performance implications
+- [👍] No compilation errors
+- [👍] Optimal data structure usage
 
 ---
 
