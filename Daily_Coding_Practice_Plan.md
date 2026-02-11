@@ -212,10 +212,10 @@ List<String> names = new ArrayList<>();
 
 #### **Day 10 - Multithreading Basics**
 **Morning Drill (15 min):**
-- [ ] Create thread using Runnable interface
-- [ ] Use ExecutorService for thread pool
-- [ ] Handle InterruptedException
-- [ ] Use synchronized keyword
+- [👍] Create thread using Runnable interface
+- [👍] Use ExecutorService for thread pool
+- [👍] Handle InterruptedException
+- [👍] Use synchronized keyword
 
 **Evening Project (30 min):**
 - [ ] Create `BankAccount` class with thread safety
