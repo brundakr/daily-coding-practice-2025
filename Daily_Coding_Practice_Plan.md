@@ -218,10 +218,10 @@ List<String> names = new ArrayList<>();
 - [👍] Use synchronized keyword
 
 **Evening Project (30 min):**
-- [ ] Create `BankAccount` class with thread safety
-- [ ] Simulate multiple users withdrawing money
-- [ ] Prevent race conditions
-- [ ] Add proper synchronization
+- [👍] Create `BankAccount` class with thread safety
+- [👍] Simulate multiple users withdrawing money
+- [👍] Prevent race conditions
+- [👍] Add proper synchronization
 
 **Daily Checklist:**
 - [ ] Thread safety implemented
@@ -233,16 +233,16 @@ List<String> names = new ArrayList<>();
 
 #### **Day 11 - Design Patterns**
 **Morning Drill (15 min):**
-- [ ] Implement Singleton pattern
-- [ ] Create Builder pattern for complex object
-- [ ] Use Observer pattern basics
-- [ ] Apply Factory method pattern
+- [👍] Implement Singleton pattern
+- [👍] Create Builder pattern for complex object
+- [👍] Use Observer pattern basics
+- [👍] Apply Factory method pattern
 
 **Evening Project (30 min):**
-- [ ] Build `DatabaseConnection` singleton
-- [ ] Create `User` builder with optional fields
-- [ ] Implement simple observer for notifications
-- [ ] Add logging throughout
+- [👍] Build `DatabaseConnection` singleton
+- [👍] Create `User` builder with optional fields
+- [👍] Implement simple observer for notifications
+- [👍] Add logging throughout
 
 **Daily Checklist:**
 - [ ] Patterns implemented correctly
