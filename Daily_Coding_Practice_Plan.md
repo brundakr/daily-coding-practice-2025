@@ -341,16 +341,16 @@ List<String> names = new ArrayList<>();
 
 #### **Day 16 - Service Layer & Dependency Injection**
 **Morning Drill (15 min):**
-- [ ] Create @Service class
-- [ ] Use @Autowired for dependency injection
-- [ ] Write business logic methods
-- [ ] Handle service layer exceptions
+- [👍] Create @Service class
+- [👍] Use @Autowired for dependency injection
+- [👍] Write business logic methods
+- [👍] Handle service layer exceptions
 
 **Evening Project (30 min):**
-- [ ] Create `UserService` interface and implementation
-- [ ] Inject service into controller
-- [ ] Move business logic from controller to service
-- [ ] Add input validation in service layer
+- [👍] Create `UserService` interface and implementation
+- [👍] Inject service into controller
+- [👍] Move business logic from controller to service
+- [👍] Add input validation in service layer
 
 **Daily Checklist:**
 - [ ] Proper separation of concerns
