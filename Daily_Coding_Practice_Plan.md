@@ -254,10 +254,10 @@ List<String> names = new ArrayList<>();
 
 #### **Day 12 - Performance & Memory**
 **Morning Drill (15 min):**
-- [ ] Compare ArrayList vs LinkedList performance
-- [ ] Use StringBuilder instead of String concatenation
-- [ ] Implement custom equals() and hashCode()
-- [ ] Use weak references appropriately
+- [👍] Compare ArrayList vs LinkedList performance
+- [👍] Use StringBuilder instead of String concatenation
+- [👍] Implement custom equals() and hashCode()
+- [👍] Use weak references appropriately
 
 **Evening Project (30 min):**
 - [ ] Optimize previous week's projects
@@ -301,16 +301,16 @@ List<String> names = new ArrayList<>();
 - [ ] Identify areas for improvement
 
 **Evening Project (30 min):**
-- [ ] Build comprehensive `InventoryManagement` system
-- [ ] Use OOP, collections, threads, patterns
-- [ ] Add unit tests
-- [ ] Include performance optimizations
+- [👍] Build comprehensive `InventoryManagement` system
+- [👍] Use OOP, collections, threads, patterns
+- [👍] Add unit tests
+- [👍] Include performance optimizations
 
 **Daily Checklist:**
-- [ ] All concepts integrated successfully
-- [ ] System works end-to-end
-- [ ] Tests pass
-- [ ] Ready for Spring Boot phase
+- [👍] All concepts integrated successfully
+- [👍] System works end-to-end
+- [👍] Tests pass
+- [👍] Ready for Spring Boot phase
 
 ---
 
