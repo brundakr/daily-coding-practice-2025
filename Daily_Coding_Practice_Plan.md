@@ -320,16 +320,16 @@ List<String> names = new ArrayList<>();
 
 #### **Day 15 - Spring Boot Setup & Basic Controller**
 **Morning Drill (15 min):**
-- [ ] Create Spring Boot project structure from memory
-- [ ] Write basic @RestController
-- [ ] Add @RequestMapping and @GetMapping
-- [ ] Return simple JSON response
+- [👍] Create Spring Boot project structure from memory
+- [👍] Write basic @RestController
+- [👍] Add @RequestMapping and @GetMapping
+- [👍] Return simple JSON response
 
 **Evening Project (30 min):**
-- [ ] Create `UserController` with CRUD endpoints
-- [ ] Add @PostMapping, @PutMapping, @DeleteMapping
-- [ ] Use @PathVariable and @RequestBody
-- [ ] Test all endpoints with sample data
+- [👍] Create `UserController` with CRUD endpoints
+- [👍] Add @PostMapping, @PutMapping, @DeleteMapping
+- [👍] Use @PathVariable and @RequestBody
+- [👍] Test all endpoints with sample data
 
 **Daily Checklist:**
 - [ ] Controller annotations used correctly
