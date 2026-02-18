@@ -362,16 +362,16 @@ List<String> names = new ArrayList<>();
 
 #### **Day 17 - Data Persistence & JPA**
 **Morning Drill (15 min):**
-- [ ] Create @Entity class with JPA annotations
-- [ ] Write @Repository interface extending JpaRepository
-- [ ] Use @Id, @GeneratedValue, @Column annotations
-- [ ] Define basic CRUD operations
+- [👍] Create @Entity class with JPA annotations
+- [👍] Write @Repository interface extending JpaRepository
+- [👍] Use @Id, @GeneratedValue, @Column annotations
+- [👍] Define basic CRUD operations
 
 **Evening Project (30 min):**
-- [ ] Create `User` entity with validation annotations
-- [ ] Create `UserRepository` with custom queries
-- [ ] Integrate repository with service layer
-- [ ] Add database configuration
+- [👍] Create `User` entity with validation annotations
+- [👍] Create `UserRepository` with custom queries
+- [👍] Integrate repository with service layer
+- [👍] Add database configuration
 
 **Daily Checklist:**
 - [ ] Entity mapping correct
