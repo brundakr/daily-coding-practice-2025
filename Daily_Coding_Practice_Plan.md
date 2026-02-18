@@ -383,16 +383,16 @@ List<String> names = new ArrayList<>();
 
 #### **Day 18 - Exception Handling & Validation**
 **Morning Drill (15 min):**
-- [ ] Create @ControllerAdvice for global exception handling
-- [ ] Use @ExceptionHandler for specific exceptions
-- [ ] Add validation annotations (@NotNull, @Size, @Email)
-- [ ] Return proper HTTP status codes
+- [👍] Create @ControllerAdvice for global exception handling
+- [👍] Use @ExceptionHandler for specific exceptions
+- [👍] Add validation annotations (@NotNull, @Size, @Email)
+- [👍] Return proper HTTP status codes
 
 **Evening Project (30 min):**
-- [ ] Add comprehensive validation to User entity
-- [ ] Create custom exceptions (UserNotFoundException, etc.)
-- [ ] Implement global exception handler
-- [ ] Return meaningful error responses
+- [👍] Add comprehensive validation to User entity
+- [👍] Create custom exceptions (UserNotFoundException, etc.)
+- [👍] Implement global exception handler
+- [👍] Return meaningful error responses
 
 **Daily Checklist:**
 - [ ] All validations working
