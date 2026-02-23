@@ -31,4 +31,47 @@ public class Task {
     @NotNull
     private boolean status;
 
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getTask() {
+        return task;
+    }
+
+    public void setTask(String task) {
+        this.task = task;
+    }
+
+    public String getDesc() {
+        return desc;
+    }
+
+    public void setDesc(String desc) {
+        this.desc = desc;
+    }
+
+    public Timestamp getDue_time() {
+        return due_time;
+    }
+
+    public void setDue_time(Timestamp due_time) {
+        this.due_time = due_time;
+    }
+
+    public boolean isStatus() {
+        return status;
+    }
+
+    public void setStatus(boolean status) {
+        this.status = status;
+    }
+
+    public String toString(Task task) {
+        return "Task: " + task.getTask() +" desc: " + task.getDesc() + " due date: "+ task.getDue_time() + " status: "+ task.isStatus();
+    }
 }
