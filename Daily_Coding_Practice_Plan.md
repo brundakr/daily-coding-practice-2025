@@ -451,10 +451,10 @@ List<String> names = new ArrayList<>();
 - [ ] List all required components
 
 **Evening Project (30 min):**
-- [ ] Build complete `TaskManagement` REST API
-- [ ] Include all CRUD operations
-- [ ] Add validation, exception handling, testing
-- [ ] Use proper layered architecture
+- [👍] Build complete `TaskManagement` REST API
+- [👍] Include all CRUD operations
+- [👍] Add validation, exception handling, testing
+- [👍] Use proper layered architecture
 
 **Daily Checklist:**
 - [ ] Complete API working
