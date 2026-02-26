@@ -468,22 +468,22 @@ List<String> names = new ArrayList<>();
 
 #### **Day 22 - Advanced JPA & Relationships**
 **Morning Drill (15 min):**
-- [ ] Create @OneToMany relationship
-- [ ] Implement @ManyToOne mapping
-- [ ] Use @JoinColumn and @MappedBy
-- [ ] Handle bidirectional relationships
+- [👍] Create @OneToMany relationship
+- [👍] Implement @ManyToOne mapping
+- [👍] Use @JoinColumn and @MappedBy
+- [👍] Handle bidirectional relationships
 
 **Evening Project (30 min):**
-- [ ] Create User-Task relationship (One-to-Many)
-- [ ] Add Category-Task relationship (Many-to-One)
-- [ ] Implement proper cascade operations
-- [ ] Test relationship queries
+- [👍] Create User-Task relationship (One-to-Many)
+- [👍] Add Category-Task relationship (Many-to-One)
+- [👍] Implement proper cascade operations
+- [👍] Test relationship queries
 
 **Daily Checklist:**
-- [ ] Relationships mapped correctly
-- [ ] Cascade operations working
-- [ ] No circular references
-- [ ] Queries returning correct data
+- [👍] Relationships mapped correctly
+- [👍] Cascade operations working
+- [👍] No circular references
+- [👍] Queries returning correct data
 
 ---
 
@@ -497,8 +497,8 @@ List<String> names = new ArrayList<>();
 **Evening Project (30 min):**
 - [ ] Add search functionality to TaskRepository
 - [ ] Create queries for filtering by status, priority
-- [ ] Implement pagination for task listing
-- [ ] Add sorting capabilities
+- [👍] Implement pagination for task listing
+- [👍] Add sorting capabilities
 
 **Daily Checklist:**
 - [ ] Custom queries working
