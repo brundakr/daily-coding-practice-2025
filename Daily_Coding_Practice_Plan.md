@@ -510,10 +510,10 @@ List<String> names = new ArrayList<>();
 
 #### **Day 24 - Security Basics & JWT**
 **Morning Drill (15 min):**
-- [ ] Add Spring Security dependency
-- [ ] Create basic authentication configuration
-- [ ] Implement JWT token generation
-- [ ] Add security filter chain
+- [👍] Add Spring Security dependency
+- [👍] Create basic authentication configuration
+- [👍] Implement JWT token generation
+- [👍] Add security filter chain
 
 **Evening Project (30 min):**
 - [ ] Create login/register endpoints
