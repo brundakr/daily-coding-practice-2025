@@ -618,7 +618,7 @@ List<String> names = new ArrayList<>();
 
 #### **Day 29 - Angular Setup & Components**
 **Morning Drill (15 min):**
-- [ ] Create Angular project with CLI
+- [👍] Create Angular project with CLI
 - [ ] Generate component with ng generate
 - [ ] Write component class with properties
 - [ ] Create HTML template with interpolation
