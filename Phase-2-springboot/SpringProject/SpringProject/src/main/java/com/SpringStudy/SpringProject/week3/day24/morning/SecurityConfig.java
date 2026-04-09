@@ -21,16 +21,16 @@ public class SecurityConfig {
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
 
-        http
-                .csrf(csrf -> csrf.disable()) //security filter chain 1 - csrf
-                .authorizeHttpRequests(auth -> auth
-                        .requestMatchers("/auth/**").permitAll() //anyuser can access any apis starting with /auth. No login permission required
-                        .anyRequest().authenticated() //remaining all other apis require login authentication
-                ) //security filter chain 2 - who can access what
-//                .httpBasic(Customizer.withDefaults()); //security filter chain 3 - Use Basic authentication i.e client must send username + password
-                .addFilterBefore(jwtFilter, UsernamePasswordAuthenticationFilter.class)
-
-        return http.build();
+//        http
+//                .csrf(csrf -> csrf.disable()) //security filter chain 1 - csrf
+//                .authorizeHttpRequests(auth -> auth
+//                        .requestMatchers("/auth/**").permitAll() //anyuser can access any apis starting with /auth. No login permission required
+//                        .anyRequest().authenticated() //remaining all other apis require login authentication
+//                ) //security filter chain 2 - who can access what
+////                .httpBasic(Customizer.withDefaults()); //security filter chain 3 - Use Basic authentication i.e client must send username + password
+//                .addFilterBefore(jwtFilter, UsernamePasswordAuthenticationFilter.class);
+//
+//        return http.build();
 
     }
 
