@@ -64,6 +64,11 @@ public class CodingPractise {
                 removeDuplicatesFromUnSortedArray();
                 break;
 
+            case "12":
+                //Arrange the array of numbers based on the frequency - Capgemini Question
+                numberFrequency();
+                break;
+
             default:
                 func();
                 break;
@@ -323,6 +328,36 @@ public class CodingPractise {
             maxSum = Math.max(maxSum, subArrSum);
         }
         System.out.println(maxSum);
+
+
+    }
+
+    public static void numberFrequency() {
+        int[] arr = {2,2,2,3,3,3,4,4,4,4,5};
+
+        Map<Integer,Long> map = Arrays.stream(arr)
+                .boxed()
+                .collect(Collectors.groupingBy(
+                        ele -> ele,
+                        Collectors.counting()
+                ));
+
+        List<Integer> list = Arrays.stream(arr)
+                .boxed()
+                .sorted(
+                        Comparator
+                                .comparing(
+                                        (Integer ele) -> map.get(ele)
+                                )
+                                .thenComparing(ele -> ele)
+                )
+                .collect(Collectors.toList());
+
+        list.stream().forEach(ele -> System.out.print(ele));
+
+
+
+
 
 
     }
